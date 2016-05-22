@@ -1,0 +1,96 @@
+$blue: 					#1B96D1;
+$light_blue: 		#5DC9E6;
+$red: 					#CF2554;
+$water: 				#27C1B9;
+$yellow_green: 	#B5C70F;
+$purple: 				#9436C1;
+$green: 				#21A134;
+$orange: 				#F15725;
+$yellow: 				#F2C200;
+$dark: 					#333;
+$grey: 					#888;
+$light: 				#ddd;
+
+$theme: #28203D;
+
+* {
+	box-sizing: border-box;
+}
+
+$h1: 48px;
+$h2: 32px;
+$h3: 26px;
+$h4: 22px;
+$h5: 20px;
+$h6: 18px;
+
+$grid: 10px;
+$tile_size: 260px;
+
+$scroller_padding: 45px;
+
+$transition: .5s 0.01s cubic-bezier(.5,0,0,1);
+
+html, body {
+	font-family: 'open-sans';
+	font-weight: 300;
+	/*background: linear-gradient(to bottom, darken($blue,20) 0%, darken($purple,20) 100%);*/
+	background: url(../img/bg.png) no-repeat center center $theme;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	/*backface-visibility: hidden;*/
+}
+
+.skype-list {
+	text-align: left;
+	li {
+		border-bottom: 1px solid #ddd;
+		transition: .2s;
+		cursor: pointer;
+		&:hover {
+			background: #f0f0f0;
+		}
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+	.table {
+		width: 100%;
+		border-collapse: collapse;
+		.cell {
+			vertical-align: middle;
+			&:first-child {
+				width: 60px;
+				padding: 10px;
+			}
+		}
+	}
+	img {
+		width: 46px; height: 46px;
+		border-radius: 50%;
+	}
+	span {
+		font-family: 'segoe';
+		font-weight: 500;
+		font-size: 18px;
+		display: block;
+	}
+	small {
+		display: block;
+		font-family: 'segoe';
+		font-weight: 400;
+		color: #999;
+		font-size: 14px;
+	}
+}
+
+
+
+.test-image {
+	position: absolute;
+	width: auto; height: auto;
+	min-width: 100%; min-height: 100%;
+	top: 50%; left: 50%;
+	max-width: 150%;
+	transform: translate(-50%,-50%);
+}

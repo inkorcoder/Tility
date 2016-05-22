@@ -1,0 +1,248 @@
+/* font-family: "SegoeUIRegular"; */
+@font-face {
+    font-family: "segoe";
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+/* font-family: "SegoeUIBold"; */
+@font-face {
+    font-family: "segoe";
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+/* font-family: "SegoeUILight"; */
+@font-face {
+    font-family: "segoe";
+    src: url("../fonts/SegoeUILight/SegoeUILight.eot");
+    src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"),
+    url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+/* font-family: "SegoeUISemiBold"; */
+@font-face {
+    font-family: "segoe";
+    src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+    src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+    url("../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*--------------------------------------------------*/
+
+/* font-family: "OpenSansRegular"; */
+@font-face {
+    font-family: "open-sans";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "open-sans";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+/* font-family: "OpenSansBold"; */
+@font-face {
+    font-family: "open-sans";
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+/* font-family: "OpenSansExtraBold"; */
+@font-face {
+    font-family: "open-sans";
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+/* font-family: "OpenSansSemiBold"; */
+@font-face {
+    font-family: "open-sans";
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/*
+	@module
+		title: fonts *n
+		type: scss *n
+		caption:
+			p{ Модуль формирует вспомогательные классы преимущественно
+			для работы с текстом. }p
+		*n
+*/
+
+/*@property
+		name: light *n
+		caption: Тонкое начертание шрифта (100) *n
+*/
+.light {
+	font-weight: 100;
+}
+
+/*@property
+		name: semilight *n
+		caption: Тонкое начертание шрифта (300) *n
+*/
+.semilight {
+	font-weight: 300;
+}
+
+/*@property
+		name: regular *n
+		caption: Нормальное начертание шрифта (400) *n
+*/
+.regular {
+	font-weight: 400;
+}
+
+/*@property
+		name: semibold *n
+		caption: Полужирное начертание шрифта (600) *n
+*/
+.semibold {
+	font-weight: 600;
+}
+
+/*@property
+		name: bold *n
+		caption: Жирное начертание шрифта (700) *n
+*/
+.bold {
+	font-weight: 700;
+}
+
+/*@property
+		name: extrabold *n
+		caption: Очень жирный текст ('black', 900) *n
+*/
+.extrabold {
+	font-weight: 900;
+}
+
+
+/*@property
+		name: lower *n
+		caption: Приведение к нижнему регистру *n
+*/
+.lower {
+	text-transform: lowercase;
+}
+
+/*@property
+		name: upper *n
+		caption: Приведение к верхнему регистру *n
+*/
+.upper {
+	text-transform: uppercase;
+}
+
+/*@property
+		name: underline *n
+		caption: Подчеркивание текста. Для <a> - по умолчанию 
+		показывается подчеркивание, при наведении - убирается. *n
+*/
+.underline {
+	text-decoration: underline;
+}
+a.underline:hover {
+	text-decoration: none;
+}
+
+/*@property
+		name: rev-underline *n
+		caption: Подчеркивание текста. Для <a> - по умолчанию 
+		убирается подчеркивание, при наведении - показывается. *n
+*/
+.rev-underline {
+	text-decoration: none;
+}
+a.rev-underline:hover {
+	text-decoration: underline;
+}
+
+/*@property
+		name: rev-underline *n
+		caption: Курсивный шрифт. *n
+*/
+.italic {
+	font-style: italic;
+}
+/*@property
+		name: oblique *n
+		caption: Курсив и наклонный шрифт при всей их похожести не 
+		одно и то же. Курсив это специальный шрифт имитирующий 
+		рукописный, наклонный же образуется путем наклона обычных 
+		знаков вправо. *n
+*/
+.oblique {
+	font-style: oblique;
+}
+/*@property
+		name: blink *n
+		caption: Мигающий текст *n
+*/
+.blink {
+	text-decoration: blink;
+}
+/*@property
+		name: strike *n
+		caption: Зачеркнутый текст. *n
+*/
+.strike {
+	text-decoration: line-through;
+}
+/*@property
+		name: overline *n
+		caption: Надчеркнуты йшрифт. *n
+*/
+.overline {
+	text-decoration: overline;
+}
+
+/* -----------------------------------------------------
+	fonts size
+*/
+
+@for $i from $min_font_size through $max_font_size {
+	.font-#{$i} {
+		font-size: #{$i}px;
+	}
+}
